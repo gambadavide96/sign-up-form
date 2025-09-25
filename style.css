@@ -1,0 +1,30 @@
+/* Default styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.image-section{
+  flex: 1;
+
+  background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+}
+
+.content-section{
+  flex: 2;
+}
+
+
+
+
