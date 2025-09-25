@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+p {
+  white-space: pre-line;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -12,17 +16,55 @@ body {
 
   display: flex;
   flex-direction: row;
+
 }
 
 .image-section{
-  flex: 1;
+  flex: 3.5;
 
   background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
   background-size: cover;
 }
 
 .content-section{
-  flex: 2;
+  flex: 6.5;
+
+  padding: 40px;
+  background-color: whitesmoke;
+
+}
+
+.intro-section {
+  
+
+  width: 90%;
+
+  margin-top: 30px;
+
+  font-size: 27px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.form-section h2 {
+  font-size: 27px;
+}
+
+.form-section {
+  
+}
+
+.form-section .form-body {
+  height: 300px;
+  padding-top: 1px;
+  padding-left: 10px;
+  background-color: white;
+
+  border-radius: 20px;
+}
+
+.log-in-section{
+
 }
 
 
