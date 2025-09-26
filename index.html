@@ -7,61 +7,63 @@
   <title>Sign Up Form</title>
 </head>
 <body>
-  <div class="image-section">
+  <div class="image-section"></div>
 
-  </div>
   <div class="content-section">
+    
     <div class="intro-section">
       <p>
         This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. 
         Sign up now to get started.
       </p>
       <p>You know you want to.</p>
-
     </div>
-    <div class="form-section">
-      <form action="" method="get" class="sign-up-form">
-        
-        <div class="form-body">
-          <h2>Let's do this!</h2>
 
-          <div class="form-row">
+    <form id="sign-up-form" action="" method="get" class="sign-up-form">
+
+      <h2>Let's do this!</h2>
+
+      <div class="form-body">
+        <div class="form-row">
+          <div class="form-group">
             <label for="first-name">First Name</label>
             <input id="first-name" name="first-name" type="text">
-
+          </div>
+          <div class="form-group">
             <label for="last-name">Last Name</label>
             <input id="last-name" name="last-name" type="text">
           </div>
+        </div>
 
-          <div class="form-row">
+        <div class="form-row">
+          <div class="form-group">
             <label for="email">Email</label>
             <input id="email" name="email" type="email" placeholder='joe@example.com'>
-
-            <label for="phone-number">Phone Number</label>
-            <input id="phone-number" name="phone-number" type="number">
-
           </div>
+          <div class="form-group">
+            <label for="phone-number">Phone Number</label>
+            <input id="phone-number" name="phone-number" type="text">
+          </div>
+        </div>
 
-          <div class="form-row">
+        <div class="form-row">
+          <div class="form-group">
             <label for="password">Password</label>
             <input id="password" name="password" type="password">
-
+          </div>
+          <div class="form-group">
             <label for="confirm-password">Confirm Password</label>
             <input id="confirm-password" name="confirm-password" type="password">
-
           </div>
-
         </div>
+      </div>
 
-        <div class="form-button">
-          <button class="submit-button">Create Account</button>
-        </div>
+    </form>
 
+    <div class="button-section">
+          <button id="sign-up-form" class="submit-button">Create Account</button>
+      </div>
 
-      </form>
-
-
-    </div>
     <div class="log-in-section">
       Already have an account? <a href="">Log in</a>
     </div>
