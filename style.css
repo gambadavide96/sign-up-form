@@ -93,6 +93,14 @@ input {
   box-shadow: 2px 4px 6px gray ;
 }
 
+.submit-button:active {
+  /* Sposta leggermente in basso */
+  transform: translateY(2px);
+
+  /* Ombra più corta → effetto “schiacciato” */
+  box-shadow: 0 0 0 gray;
+}
+
 .log-in-section {
   margin-top: 40px;
   font-size: 16px;
@@ -102,6 +110,28 @@ input {
   text-decoration: none;
   color: #355949;
   font-weight: bold;
+}
+
+.odin-container {
+  margin-top: 150px;
+  background-color: rgba(0, 0, 0, 0.5); /* Trasparenza */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.odin-logo {
+  max-width: 140px;
+  max-height: 140px;
+}
+
+.odin-container > h1 {
+  color: white;
+  font-size: 64px;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 
