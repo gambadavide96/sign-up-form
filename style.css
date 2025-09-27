@@ -53,6 +53,10 @@ form {
   box-shadow: 4px 4px 3px lightgray ;
 }
 
+.sign-up-form h2 {
+  font-family: "Roboto", sans-serif;
+}
+
 .form-body {
   display: flex;
   flex-direction: column;
@@ -74,6 +78,32 @@ form {
 input {
   width: 250px;
   height: 30px;
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+}
+
+input::placeholder {
+  color: gray;
+  font-style: italic;
+  opacity: 0.4;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+
+input:valid:not(:placeholder-shown) {
+  border-color: green;
+}
+
+
+
+
+label {
+  color: gray;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 
 .button-section {
