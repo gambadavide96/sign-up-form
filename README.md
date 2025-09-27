@@ -1,5 +1,6 @@
 # 📋 Sign-up Form  
-A simple sign-up form for an imaginary service, built as part of **The Odin Project curriculum**. 
+A simple sign-up form for an imaginary service, built as part of **The Odin Project curriculum**.
+
 👉 **[Watch here](https://gambadavide96.github.io/sign-up-form/)**
 
 ## 🚀 Purpose  
