@@ -35,7 +35,7 @@ body {
 }
 
 .button-section, .log-in-section {
-  padding-left: 70px;
+  padding-left: 40px;
 }
 
 .intro-section {
@@ -50,12 +50,14 @@ form {
   background-color: white;
   padding-top: 1px;
   padding-bottom: 30px;
+  box-shadow: 4px 4px 3px lightgray ;
 }
 
 .form-body {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  
 }
 
 .form-row {
@@ -74,6 +76,33 @@ input {
   height: 30px;
 }
 
+.button-section {
+  margin-top: 30px;
+}
+
+.submit-button {
+  width: 200px;
+  height: 50px;
+  background-color: #355949;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 2px 4px 6px gray ;
+}
+
+.log-in-section {
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.log-in-section a {
+  text-decoration: none;
+  color: #355949;
+  font-weight: bold;
+}
 
 
 
