@@ -1,5 +1,6 @@
 # 📋 Sign-up Form  
-A simple sign-up form for an imaginary service, built as part of **The Odin Project curriculum**.  
+A simple sign-up form for an imaginary service, built as part of **The Odin Project curriculum**. 
+👉 **[Watch here](https://gambadavide96.github.io/sign-up-form/)**
 
 ## 🚀 Purpose  
 The goal of this project is to practice **HTML** and **CSS** skills, with a focus on:  
@@ -20,4 +21,6 @@ The goal of this project is to practice **HTML** and **CSS** skills, with a focu
 
 ## 📚 Part of the curriculum  
 This project is part of the **Intermediate HTML and CSS** module of [The Odin Project](https://www.theodinproject.com/).  
+
+
 
